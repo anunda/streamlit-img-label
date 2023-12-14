@@ -116,3 +116,4 @@ def output_json(json_file_path, templat_name, rects):
     with open(json_file_path, 'w') as json_file:
         json.dump(template_dict, json_file, indent=4)
 
+#print(read_json('template.json', 'template1'))

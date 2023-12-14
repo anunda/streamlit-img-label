@@ -203,3 +203,5 @@ class ImageDirManager:
             return image_index
         if not image_index and len(self._files) != len(self._annotations_files):
             return self._get_next_image_helper(0)
+        
+        #print("All images have been annotated.")
